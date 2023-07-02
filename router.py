@@ -172,12 +172,3 @@ class Router :
             "MacAddress" : macId,
             "Status" : "Sukses Un-Ban!"
         }
-
-# if __name__ == "__main__" :
-    # MyRouter = Router("192.168.1.1", "admin", "Telkomdso123")
-    # data_akun = MyRouter.getBanList()
-    # print(data_akun)
-    # MyRouter.ban("putris","GC:31:31:31:31:34")
-    # MyRouter.unban("name","peler")
-    # mac = "32:31:31:31:31:34"
-    # MyRouter.unban("mac", mac)
